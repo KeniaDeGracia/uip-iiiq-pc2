@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emkharta.Ingresar">
+    <children>
+        <Pane prefHeight="406.0" prefWidth="400.0" style="-fx-background-color: #004DFF;" GridPane.columnIndex="1">
+            <children>
+                <Label layoutY="24.0" prefHeight="84.0" prefWidth="400.0" style="-fx-background-color: #3DAC53;" text="  Emkharta" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Bold" size="72.0" />
+                    </font>
+                </Label>
+                <Label layoutX="49.0" layoutY="142.0" prefHeight="23.0" prefWidth="109.0" style="-fx-background-color: #EF1414;" text="   Usuario:" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="Arial" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="49.0" layoutY="202.0" style="-fx-background-color: #EF1414;" text="Contraseña:" textFill="WHITE">
+                    <font>
+                        <Font name="Arial" size="20.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="usuario" layoutX="172.0" layoutY="140.0" prefHeight="27.0" prefWidth="186.0">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font></TextField>
+                <Button fx:id="btn_ingresar" layoutX="128.0" layoutY="271.0" mnemonicParsing="false" onAction="#ingresar" style="-fx-background-color: #17202A;" text="Ingresar" textFill="#ffffffeb">
+                    <font>
+                        <Font name="Arial" size="25.0" />
+                    </font>
+                </Button>
+                <PasswordField fx:id="password" layoutX="172.0" layoutY="200.0" prefHeight="27.0" prefWidth="186.0">
+                    <font>
+                        <Font name="Arial" size="15.0" />
+                    </font>
+                </PasswordField>
+            </children>
+        </Pane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+      <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>
