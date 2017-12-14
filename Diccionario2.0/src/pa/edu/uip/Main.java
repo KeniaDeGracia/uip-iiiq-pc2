@@ -97,7 +97,7 @@ public class Main {
         if (!existeDiccionario) {
             System.out.println("No se ha encontrado ningún diccionario con ese identificador.");
         } else {
-            (new GestionDiccionario(diccionarioGestionado)).iniciaGestionDiccionario();
+            (new UtilizarDiccionario(diccionarioGestionado)).iniciaGestionDiccionario();
         }
     }
 

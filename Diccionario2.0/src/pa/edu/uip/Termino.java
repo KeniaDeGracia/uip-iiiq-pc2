@@ -22,12 +22,8 @@ public class Termino {
         return "--------\nPalabra: " + palabra + "\nRaiz: " + raiz + "\nDefinición: " + definicion;
     }
 
-    /**
-     * Dos términos son iguales si <code>palabra</code> es la misma en ambos.
-     *
-     * @param obj
-     * @return <code>true</code> si los términos son iguales y <code>false</code> si son distintos
-     */
+    //Dos términos son iguales si <code>palabra</code> es la misma en ambos.
+    //@param obj @return <code>true</code> si los términos son iguales y <code>false</code> si son distintos
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
